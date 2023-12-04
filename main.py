@@ -16,7 +16,7 @@ rel['selected_percentages'] = rel['Christian_NR']
 source = ColumnDataSource(rel)
 
 # Create select widget
-options = ['Christian', 'Muslim', 'Jewish', 'Buddhist', 'Hindu', 'Sikh', 'Other religion', 'No religion']
+options = ['Christian', 'Muslim']
 select_religion = Select(title="Religious Group:", value='Christian', options=options)
 
 # Define callback for updating data source
